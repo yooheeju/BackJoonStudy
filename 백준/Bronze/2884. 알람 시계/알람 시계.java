@@ -12,7 +12,7 @@ public class Main {
 		if(m>=45) {
 			System.out.println(h+" "+(m-45));
 		}else{
-			if(h<1) {
+			if(h<1) { //00시 일 경우
 				h=24;
 			}
 			System.out.println(h-1+" "+((60+m)-45));
